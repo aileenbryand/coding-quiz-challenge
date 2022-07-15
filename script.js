@@ -115,12 +115,7 @@ function printTimeLeft () {
   answerThree.textContent = activeQuestion.answers[3];
   answerFour.textContent = activeQuestion.answers[4];
 
-  answerList.append(answerOne);
-  answerList.append(answerTwo);
-  answerList.append(answerThree);
-  answerList.append(answerFour);
-  questions.append(questionTitle);
-  questions.append(answerList);
+ 
  }
 
   
