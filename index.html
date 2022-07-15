@@ -5,9 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">   
+<link rel="stylesheet" href="./assets/style.css">
+
 </head>
 <body>
-    
+
+<!--outter div-->  
+    <div class="outter-container">
+
+        <!--top-bar div-->
+        <div class="top-nav">
+            <a href="scores">View High Scores<a>
+            <p>Seconds Reamining: <span id="countdown">60</span></p> 
+            
+
+        </div>
+
+        <!--inner-div-->
+
+        <div class="inner-container">
+            <!--quiz introduction-->
+            <header class="quiz-introduction">
+                <h1>Codng Quiz Challenge</h1>
+                <p> Answer the following questions within the time limit. Every incorrect answer will be penalized by substracting 10 seconds from your timer.</p>
+                <button class="button" id="start-quiz">Start Quiz</button>
+            </header>
+
+
+        
+                <!--main-content-->
+            
+
+                <!--questions-screen-->
+                <div class="quiz">
+                    <div id="question"></div>
+                    <div id="answer"></div>
+                </div>
+
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <form class="end-form">
+                    <h3>Enter initials</h3>
+              
+                    <label for="initials"> </label>
+                    <input type="text" name="name" id="initials"/>
+                    <button id="submit">Submit</button>
+                    <div id="highscores">
+                      <p>HIGHSCORES</p>
+                    </div>
+                </form>
+
+            
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

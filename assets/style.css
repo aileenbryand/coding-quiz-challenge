@@ -1,0 +1,164 @@
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+:root {
+--green: #41F282;
+--darkgreen: #034001;
+--light: white;
+--gray: #595959;
+--dark: black;
+--darkgray: #595959;
+}
+
+
+/*------------------*/
+/*-OUTTER-CONTAINER-*/
+/*------------------*/
+.outter-container {
+    padding: 10px;
+    height: 100vh;
+    background-color: var(--dark);
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    
+
+}
+
+/*-----------------*/
+/*-INNER-CONTAINER-*/
+/*-----------------*/
+.inner-container{
+  
+  height: 100%;
+  background-color: var(--dark);
+  color: var(--light);
+  width: 50%;
+  margin: 0 auto;
+  background-color: var(--darkgray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+
+
+
+
+/*---------*/
+/*-TOP-NAV-*/
+/*---------*/
+.top-nav p{
+   float: right;
+   color: var(--green);
+   font-size: 25px;
+    
+}
+
+.top-nav{
+    height: 40px;
+    
+    
+}
+
+.top-nav a{
+    color: var(--green);
+    
+    font-size: 25px;
+    
+}
+
+
+/*-------------------*/
+/*-QUIZ-INTRODUCTION-*/
+/*-------------------*/
+
+.quiz-introduction{
+    text-align: center;
+    margin-bottom: 30vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.button{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,182,77,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.button:hover{
+    cursor: pointer;
+    
+}
+
+
+/*---------------*/
+/*-MAIN-CONTENT-*/
+/*---------------*/
+
+
+
+h1, h2 , h3{
+    
+font-family: 'Secular One', sans-serif;
+}
+
+p{
+    font-family: 'Chakra Petch', sans-serif;    
+}
+
+
+/*---------------*/
+/*-QUESTIONS*/
+/*---------------*/
+
+
+
+
+
+
+
+
+/*---------------*/
+/*-end-of-quiz-questions-*/
+/*---------------*/
+
+#submit {
+    background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,182,77,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+form {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 30vw;
+    background-color: var(--darkgreen);
+    padding: 20px;
+    line-height: 1;
+  }
+
+
+
+/*---------------*/
+/*-sCORES-SCREEN-*/
+/*---------------*/
+.high-scores{
+    
+}
+
+.high-scores ol:hover{
+    overflow-y: scroll;
+}
+
+
+
+
+
+
