@@ -1,3 +1,8 @@
 # coding-quiz-challenge
+This challenge consist of developing a dofing quiz that displays a series of questions. Whenever the question is answered wrong, 10 seconds are taken off. At the end, the user can input their initials and see their score.
 
-![Screenshot (78)](https://user-images.githubusercontent.com/107386198/177480388-106be6ab-a56b-44bf-b0bc-52312a7ac5f8.png)
+
+What was used:
+-html
+-css
+-java script
