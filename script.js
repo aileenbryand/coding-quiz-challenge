@@ -104,10 +104,10 @@ function printTimeLeft () {
   
  var questionTitle = document.createElement("h4");
   var answerList = document.createElement("ul");
-  var answerItem1 = document.createElement("li");
-  var answerItem2 = document.createElement("li");
-  var answerItem3 = document.createElement("li");
-  var answerItem4 = document.createElement("li");
+  var answerOne = document.createElement("li");
+  var answerTwo = document.createElement("li");
+  var answerThree = document.createElement("li");
+  var answerFour = document.createElement("li");
 
   questionTitle.textContent = activeQuestion.question;
   answerOne.textContent = activeQuestion.answers[1];
@@ -115,10 +115,10 @@ function printTimeLeft () {
   answerThree.textContent = activeQuestion.answers[3];
   answerFour.textContent = activeQuestion.answers[4];
 
-  answerList.append(answerItem1);
-  answerList.append(answerItem2);
-  answerList.append(answerItem3);
-  answerList.append(answerItem4);
+  answerList.append(answerOne);
+  answerList.append(answerTwo);
+  answerList.append(answerThree);
+  answerList.append(answerFour);
   questions.append(questionTitle);
   questions.append(answerList);
  }
@@ -166,20 +166,3 @@ function printTimeLeft () {
 
 
 
-//code quiz js
-
-
-//landing page with start button
-//when start button is clicked, remove welcome msg abd append question 1
-
-    //add event.litener
-        //activity 12
-//start timer
-//user answers questions-read chosen elements, data value, compare to answer key
-//iterate (for-loop to display questions
-//if correct, next question
-//if incorrect, sbstract 10 seconds from timer)
-//end of quiz
-    //add up user score
-    //display input
-    //second html and siplay username and score-- read object from local storage
