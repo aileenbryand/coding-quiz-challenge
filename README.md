@@ -6,3 +6,4 @@ What was used:
 -html
 -css
 -java script
+Deployed URL: https://aileenbryand.github.io/coding-quiz-challenge/
